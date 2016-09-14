@@ -56,7 +56,7 @@ tenant_network_mask_bits = 28
 
 skip_scenario_tests = false
 skip_functional_tests = false
-skip_functional_test_list = ZaqarWaitConditionTest, ZaqarEventSinkTest, ZaqarSignalTransportTest, RemoteStackTest.test_stack_update, RemoteStac$
+skip_functional_test_list = ZaqarWaitConditionTest, ZaqarEventSinkTest, ZaqarSignalTransportTest, RemoteStackTest.test_stack_update, RemoteStacteStackTest.test_stack_resource_validation_fail, RemoteStackTest.test_stack_suspend_resume, RemoteStackTest.test_stack_create_bad_region, test_purge.PurgeTest.test_purge, ReloadOnSighupTest.test_api_cfn_reload_on_sighup, ReloadOnSighupTest.test_api_cloudwatch_on_sighup, ReloadOnSighupTest.test_api_reload_on_sighup, RemoteStackTest.test_stack_create, RemoteStackTest.test_stack_resource_validation_fail
 
 skip_scenario_test_list = AodhAlarmTest.test_alarm, CfnInitIntegrationTest.test_server_cfn_init
 skip_test_stack_action_list = ABANDON, ADOPT
